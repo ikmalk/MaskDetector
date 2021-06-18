@@ -8,14 +8,14 @@ cv2
 numpy
 tensorflow
 pickle
-matplotlib
+plotly
 ```
 
 ## How to run
 
 ### Data preparation
 
-1. Create a new folder for datasets
+1. Create a new folder in directory for named "datasets"
 2. Create folders inside datasets folder with labels as folder name E.g
 ```
 datasets
@@ -24,22 +24,31 @@ datasets
 ```
 3. Download datasets from internet, my dataset is from https://github.com/cabani/MaskedFace-Net
 4. Put images in approprirate file in datasets folder
-5. Modify path variable and categories in DatasetsGenerator.py
-6. Run DatasetsGenerator.py
+5. Run DatasetsGenerator.py
 
 ### Training Model
 
-1. Modify and make sure the CATEGORIES variable matches the folder name in datasets
-2. If DatasetsGenerator.py runs without error, there should be a pickle file in directory
-3. Run trainer.py
+You can skip this process by downloading the entire model folder [here](https://drive.google.com/drive/folders/1Z3sGnD-NP3jrR3Tqjx6XQMdyaaFC20GI?usp=sharing) and put it inside the code folder. (Can't put in github because the model is over 100mb)
 
-### Testing
+1. If DatasetsGenerator.py runs without error, there should be a pickle file in directory
+2. Run trainer.py
 
-1. Modify and make sure the CATEGORIES variable matches the folder name in datasets
-2. Run test.py
+### Getting accuracy
 
+1. Create a new folder in directory named "testdata" with same folder structure as datasets folder
+2. Put images that is not in the datasets folder inside the relevant folder in the testdata folder
+3. Run stats.py
 
+### Implementaion
+1. Make sure webcam is enabled
+2. Run MaskDetector.py
 
+Example of MaskDetector out put
+
+[[https://github.com/ikmalk/MaskDetector/blob/main/NoMask.JPG]]
+[[https://github.com/ikmalk/MaskDetector/blob/main/Mouth.JPG]]
+[[https://github.com/ikmalk/MaskDetector/blob/main/Mask.JPG]]
+[[https://github.com/ikmalk/MaskDetector/blob/main/Nose.JPG]]
 
 
 
