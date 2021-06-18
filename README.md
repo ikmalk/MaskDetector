@@ -45,10 +45,10 @@ You can skip this process by downloading the entire model folder [here](https://
 
 Example of MaskDetector out put
 
-[[https://github.com/ikmalk/MaskDetector/blob/main/NoMask.JPG]]
-[[https://github.com/ikmalk/MaskDetector/blob/main/Mouth.JPG]]
-[[https://github.com/ikmalk/MaskDetector/blob/main/Mask.JPG]]
-[[https://github.com/ikmalk/MaskDetector/blob/main/Nose.JPG]]
+![1](https://github.com/ikmalk/MaskDetector/blob/main/NoMask.JPG)
+![2](https://github.com/ikmalk/MaskDetector/blob/main/Mouth.JPG)
+![3](https://github.com/ikmalk/MaskDetector/blob/main/Mask.JPG)
+![4](https://github.com/ikmalk/MaskDetector/blob/main/Nose.JPG)
 
 
 
