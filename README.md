@@ -43,7 +43,7 @@ You can skip this process by downloading the entire model folder [here](https://
 1. Make sure webcam is enabled
 2. Run MaskDetector.py
 
-Example of MaskDetector out put
+Example of MaskDetector output
 
 ![1](https://github.com/ikmalk/MaskDetector/blob/main/NoMask.JPG)
 ![2](https://github.com/ikmalk/MaskDetector/blob/main/Mouth.JPG)
